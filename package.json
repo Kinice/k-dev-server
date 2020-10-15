@@ -1,22 +1,22 @@
 {
-  "name": "simple-dev-server",
+  "name": "k-dev-server",
   "version": "0.0.1",
-  "description": "A simple dev server.",
+  "description": "A simple local server for web test.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kinice/simple-dev-server.git"
+    "url": "git+https://github.com/Kinice/k-dev-server.git"
   },
   "author": "Kinice",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kinice/simple-dev-server/issues"
+    "url": "https://github.com/Kinice/k-dev-server/issues"
   },
-  "homepage": "https://github.com/Kinice/simple-dev-server#readme",
+  "homepage": "https://github.com/Kinice/k-dev-server#readme",
   "bin": {
-    "simple-dev-server": "./index.js"
+    "k-dev-server": "./index.js"
   }
 }

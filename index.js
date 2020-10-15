@@ -8,7 +8,7 @@ const pkg = fs.readFileSync(path.join(__dirname, 'package.json'))
 const version = JSON.parse(pkg).version
 
 let rootPath = __dirname
-let configPath = path.join(rootPath, 'sds-config.json')
+let configPath = path.join(rootPath, 'kds-config.json')
 let proxyPath = ''
 let fileName = 'index.html'
 
@@ -30,7 +30,7 @@ function checkArgv() {
             break
           case '--version':
           case '-v':
-            console.log(`simple-dev-server v${version}`)
+            console.log(`k-dev-server v${version}`)
             break
           default:
             consoleHelp()
